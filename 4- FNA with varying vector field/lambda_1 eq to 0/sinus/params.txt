@@ -1,0 +1,7 @@
+n: 150
+tmax: 100
+lambda_0: 0.025
+lambda_1: 1.5e-05
+        u = 0.7-0.2*np.sin(t/5)*x
+        v = 0.2+0.2*np.sin(t/5)*y
+        vfield = (u,v)
